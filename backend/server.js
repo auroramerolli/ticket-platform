@@ -1,10 +1,10 @@
 require("dotenv").config();
-const dns = require("dns");
+//const dns = require("dns");
 const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-dns.setServers(["8.8.8.8", "8.8.4.4"]);
+//dns.setServers(["8.8.8.8", "8.8.4.4"]);
 
 const eventRoutes = require("./routes/events");
 const ticketRoutes = require("./routes/tickets");
