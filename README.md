@@ -75,3 +75,5 @@ npm run dev                          # http://localhost:3000
 - **Frontend** → [Vercel](https://vercel.com) — set `NEXT_PUBLIC_API_URL` env var
 - **Backend** → [Render](https://render.com) — set `MONGODB_URI` and `CLIENT_URL` env vars
 
+## Live
+https://ticket-platform-sand.vercel.app
